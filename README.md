@@ -56,7 +56,8 @@ KAKADU (https://kakadusoftware.com/) is required for decoding JPEG-2000 ( _.jp2_
 
 $${\color{green}Output}$$: ```Cell centers of the NISSL stained cells in the image```
 
-### Algorithm
+### Algorithm 
+_(Images used here are in assets folder)_
 
 + Read the image <br>
   <details>
