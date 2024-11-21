@@ -44,3 +44,17 @@ The package contains two files:
   + $${\color{lightblue}Usage}$$: ``` python3 .\display_results.py .\test_image.tif ```
   
 </details>
+
+## Description of the Algorithm
+
+$${\color{red}Input}$$: ```Image File (tiff/jp2)```
+
+To use JPEG-2000 encoded images, the temp folder must be created in the working directory.<br>
+KAKADU (https://kakadusoftware.com/) is required for decoding JPEG-2000 ( _.jp2_ ) images. <br>
+
+$${\color{green}Output}$$: ```CSV for the cell centers in the image```
+
++ ![read the image]
++ 
+
+
