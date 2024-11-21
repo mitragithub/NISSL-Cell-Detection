@@ -121,7 +121,7 @@ $${\color{green}Output}$$: ```CSV for the cell centers in the image```
     ![csv](./assets/csv_example.png)
   
   </details>
-+ The final result of all these centroids gives all the cells in the Nissl stained image <br>
++ The final result of all these centroids gives all the cells in the Nissl stained image (Requires running of ```display_results.py```) <br>
   <details>
     <summary> $${\color{blue}Show\ Image}$$ </summary>
     
