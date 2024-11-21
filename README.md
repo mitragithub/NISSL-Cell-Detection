@@ -1,6 +1,8 @@
 # NISSL-Cell-Detection
 Detection of Cells in NISSL stained Brain images
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14200087.svg)](https://doi.org/10.5281/zenodo.14200087)
+
 <details>
   <summary> $${\color{magenta} Requirements}$$ </summary>
 
