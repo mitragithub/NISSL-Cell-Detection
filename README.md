@@ -1,6 +1,24 @@
 # NISSL-Cell-Detection
 Detection of Cells in NISSL stained Brain images
 
+<details>
+  <summary> $${\color{magenta} Requirements}$$ </summary>
+
+  + Python 3.7+
+  + scikit-image
+  + scikit-learn
+  + matplotlib
+  + pandas
+  + pathlib
+  + os
+  + sys
+  + shapely
+  + numpy
+  + $${\color{orange}KAKADU (!Optional) }$$
+  
+</details>
+
+
 The package contains two files:
 1. ```cell_functions_new_tiles.py ```
 2. ```display_results.py ```
