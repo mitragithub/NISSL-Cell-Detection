@@ -54,22 +54,78 @@ KAKADU (https://kakadusoftware.com/) is required for decoding JPEG-2000 ( _.jp2_
 
 $${\color{green}Output}$$: ```CSV for the cell centers in the image```
 
-### Pseudocode
+### Algorithm
 
 + read the image <br>
-   ![image](./assets/test_image1.png)
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    ![image](./assets/test_image1.png)
+  </details>
 + Calculate channel-mean <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![channel_mean](./assets/channel_mean.png)
+  
+  </details>
 + Invert the image <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![inverted_image](./assets/image_inv.png)
+  
+  </details>
 + Binarize the Image based on OTSU <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![binary](./assets/binary.png)
+  
+  </details>
 + Fill the small holes in the image < 16 pixels <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![small holes](./assets/remove_small_holes.png)
+  
+  </details>
 + Remove small objects less than 40 pixels (these are assumed as not cells) <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![small objects](./assets/remove_small_objects.png)
+  
+  </details>
 + Find the Connected Components
-+ Connected components <= 75 pixels and > 40 pixels, are demarcated as singular cells
++ Connected components <= 75 pixels and > 40 pixels, are demarcated as singular cells with centroids as shown <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![singular](./assets/singular_cells.png)
-+ Connected components > 75 pixels are demarcated as overlapping cells
-+ 
+  
+  </details>
++ Connected components > 75 pixels are demarcated as overlapping cells, known as ```big_object```(s)
++ Find the number of discs of radius 4 pixels that can fit into each ```big_object```
++ Fit the same number of GMMs into each ```big_object``` representing multiple cells
++ The mean of each Gaussian in the centroid of each cell for the multi-cellular connected components, as shown <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
+    ![multicell](./assets/multicell_components.png)
+
+  </details>
++ Collect the centroids ```(x,y)``` of singular cells and overlapping cells into CSV output <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
+    ![csv](./assets/csv_example.png)
+  
+  </details>
++ The final result of all these centroids gives all the cells in the Nissl stained image <br>
+  <details>
+    <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
+    ![final](./assets/final_result.png)
+  
+  </details>
+  
