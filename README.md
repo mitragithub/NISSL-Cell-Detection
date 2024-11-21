@@ -52,7 +52,7 @@ $${\color{red}Input}$$: ```Image File (tiff/jp2)```
 To use JPEG-2000 encoded images, the temp folder must be created in the working directory.<br>
 KAKADU (https://kakadusoftware.com/) is required for decoding JPEG-2000 ( _.jp2_ ) images. <br>
 
-$${\color{green}Output}$$: ```CSV for the cell centers in the image```
+$${\color{green}Output}$$: ```Cell centers of the NISSL stained cells in the image```
 
 ### Algorithm
 
