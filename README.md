@@ -56,7 +56,7 @@ $${\color{green}Output}$$: ```CSV for the cell centers in the image```
 
 ### Algorithm
 
-+ read the image <br>
++ Read the image <br>
   <details>
     <summary> $${\color{blue}Show\ Image}$$ </summary>
     ![image](./assets/test_image1.png)
