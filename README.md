@@ -62,7 +62,9 @@ _(Images used here are in assets folder)_
 + Read the image <br>
   <details>
     <summary> $${\color{blue}Show\ Image}$$ </summary>
+    
     ![image](./assets/test_image1.png)
+    
   </details>
 + Calculate channel-mean <br>
   <details>
