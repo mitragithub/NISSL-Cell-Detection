@@ -26,7 +26,7 @@ The package contains two files:
 2. ```display_results.py ```
 
 <details>
-  <summary> $${\color{yellow}Running\ cell\_functions\_new\_tiles.py}$$ </summary>
+  <summary> $${\color{magenta}Running\ cell\_functions\_new\_tiles.py}$$ </summary>
   
   + $${\color{red}Input}$$: ```Image File (tiff/jp2)```
   
@@ -37,7 +37,7 @@ The package contains two files:
 </details>
 
 <details>
-  <summary> $${\color{yellow}Running\ display\_results.py}$$ </summary>
+  <summary> $${\color{magenta}Running\ display\_results.py}$$ </summary>
   
   + $${\color{red}Input}$$: ```Image File (tiff/jp2)```, ```CSV for the cell centers in the image```
   
