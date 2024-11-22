@@ -52,6 +52,29 @@ The package contains two files:
   
 </details>
 
+<details>
+  <summary> $${\color{magenta}Running\ Times}$$ </summary>
+
+  _(only for ```cell_functions_new_tiles.py```)_
+  
+  $${\color{red}Machine Specs:}$$
+  + ```12th Gen Intel(R) Core(TM) i9-12950HX 2.30 GHz```
+  + ```16 Core```
+  + ```64.0 GB RAM```
+  + ```Windows 11 Pro```
+  + ```NVIDIA GeForce RTX 3080Ti 16 GB```
+
+  $${\color{red}Image\ Info:}$$
+  + Format : ```Tiff```
+  + Size : ```5000 X 5000 pixels```
+  + FileSize : ```73 MB```
+
+  $${\color{red}Time\ to\ Completion:}$$
+  + ```61.01 secs``` at 5% CPU load
+  
+  
+</details>
+
 ## Description of the Algorithm
 
 $${\color{red}Input}$$: ```Image File (tiff/jp2)```
