@@ -1,7 +1,12 @@
 # NISSL-Cell-Detection
-Detection of Cells in NISSL stained Brain images
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14200087.svg)](https://doi.org/10.5281/zenodo.14200087)
+
+The nissl-stained sections in the brain label millions of granular cells, where the morphology of these cells is quite similar in shape and size. The cells are circular in nature in the brain. Applying state-of-the-art machine vision techniques, including Deep Learning techniques to identify these cells fail to capture all the cells individually. These algorithms also fail to decompose overlapping cells, due to their holistic segmentation approach. The semantic segmentation approach using Mask-RCNN used to segment the nissl cells,  fails to achieve satisfactory results in the brain regions with large number of granular cells. To overcome the bottleneck of the holistic approach of the recent segmentation techniques, we resort to traditional morphological-based operations to segment the complicated regions involving overlapping cells.
+
+This morphological approach is effective in breaking the barriers of the recent holistic segmenter and pixel segmentation approach when the cells have similar morphological characteristics. This technique as shown in our approach is quite efficient in determining the cells with overlapping areas occluded or partially visible cellular structures. The approach is highly parallelizable and can be used as a tiled approach (moving window) to compensate for any intensity variation in the image.
+
+
 
 <details>
   <summary> $${\color{magenta} Requirements}$$ </summary>
