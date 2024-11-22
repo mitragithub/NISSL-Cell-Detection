@@ -70,7 +70,7 @@ The package contains two files:
   + FileSize : ```73 MB```
 
   $${\color{red}Time\ to\ Completion:}$$
-  + ```61.01 secs``` at 5% CPU load
+  + ```213.35 secs``` at 5% CPU load
   
   
 </details>
