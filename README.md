@@ -66,7 +66,7 @@ The package contains two files:
 
   $${\color{red}Image\ Info:}$$
   + Format : ```Tiff```
-  + Size : ```5000 X 5000 pixels```
+  + Dimensions : ```5000 X 5000 pixels```
   + FileSize : ```73 MB```
 
   $${\color{red}Time\ to\ Completion:}$$
